@@ -15,7 +15,7 @@ const About = () => {
     }, []);
 
     return (
-        <article className="about active">
+        <article className="about">
             <header>
                 <h2 className="h2 article-title">About me</h2>
             </header>
@@ -131,7 +131,7 @@ const About = () => {
                         </figure>
 
                         <img
-                            src="./assets/images/icon-quote.svg"
+                            src="/images/icons/icon-quote.svg"
                             alt="quote icon"
                         />
                     </div>

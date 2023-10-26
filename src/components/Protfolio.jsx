@@ -3,7 +3,7 @@ import { BsGithub, BsChevronDown } from "react-icons/bs";
 import { VscLiveShare } from "react-icons/vsc";
 import { categories, portfolio } from "../constants";
 
-const Portfolio = () => {
+const Portfolio = ({ setActiveProject }) => {
     const [active, setActive] = useState(false);
     const [category, setCategory] = useState("All");
     const [projects, setProjects] = useState(portfolio);
@@ -100,12 +100,14 @@ const Portfolio = () => {
                                     <p className="project-desc">{item.desc}</p>
 
                                     <div className="project-btn-section">
-                                        <a
-                                            href={`/project/${item.id}`}
+                                        <button
+                                            onClick={() =>
+                                                setActiveProject(item)
+                                            }
                                             className="view-btn"
                                         >
                                             More
-                                        </a>
+                                        </button>
                                         <div className="link">
                                             <a href={item.live}>
                                                 <VscLiveShare />

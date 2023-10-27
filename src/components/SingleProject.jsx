@@ -11,7 +11,8 @@ const SingleProject = ({ activeProject, setActiveProject }) => {
             </header>
 
             <section className="blog-posts" style={{ color: "white" }}>
-                Project Detail Page is under Construction
+                {activeProject.title} <br />: Project Detail Page is under
+                Construction
             </section>
         </article>
     );

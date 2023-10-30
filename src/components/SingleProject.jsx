@@ -18,11 +18,9 @@ const SingleProject = ({ activeProject, setActiveProject }) => {
                 <ul className="testimonials-list has-scrollbar">
                     {activeProject.images.map((item, index) => (
                         <li key={index} className="testimonials-item">
-                            <img
-                                src={item}
-                                alt={activeProject.title}
-                                className="project-img"
-                            />
+                            <figure className="project-img">
+                                <img src={item} alt={activeProject.title} />
+                            </figure>
                         </li>
                     ))}
                 </ul>

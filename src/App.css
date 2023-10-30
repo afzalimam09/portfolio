@@ -955,9 +955,6 @@ main {
   margin-top: 8px;
 }
 
-
-
-
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
@@ -2171,4 +2168,55 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 
+}
+
+/* single page css */
+
+.single section {
+  margin-bottom: 25px;
+}
+
+.single .desc {
+  font-size: var(--fs-6);
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.single .desc p {
+ margin-bottom: 15px;
+}
+
+.single .techstack-icon-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.single .techstack-icon-list .tech-icon {
+  background: var(--white-2);
+  border-radius: 8px;
+}
+
+.single .techstack-icon-list span {
+  color: var(--light-gray);
+  font-size: 10px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.single .deployed-links a {
+  margin-top: 7px;
+  color: var(--light-gray);
+  font-size: 14px;
+  transition: color var(--transition-1);
+}
+
+.single .deployed-links a:hover {
+  color: var(--orange-yellow-crayola)
+}
+
+.single .deployed-links a:first-child {
+  margin-top: 15px;
 }

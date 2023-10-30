@@ -26,7 +26,11 @@ const App = () => {
         <main>
             <Sidebar />
             <div className="main-content">
-                <Navbar setComponent={setComponent} component={component} />
+                <Navbar
+                    setComponent={setComponent}
+                    component={component}
+                    setActiveProject={setActiveProject}
+                />
 
                 {!activeProject ? (
                     <ActiveComponent setActiveProject={setActiveProject} />

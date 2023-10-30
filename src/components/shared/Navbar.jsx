@@ -1,13 +1,19 @@
 import { navLinks } from "../../constants";
 
-const Navbar = ({ setComponent, component }) => {
+const Navbar = ({ setComponent, component, setActiveProject }) => {
+    const handleNavClick = (title) => {
+        setActiveProject((prev) => {
+            if (!prev) setActiveProject(null);
+        });
+        setComponent(title);
+    };
     return (
         <nav className="navbar">
             <ul className="navbar-list">
                 {navLinks.map(({ id, title }) => (
                     <li key={id} className="navbar-item">
                         <button
-                            onClick={() => setComponent(title)}
+                            onClick={() => handleNavClick(title)}
                             className={`navbar-link ${
                                 component === title ? "active" : ""
                             }`}

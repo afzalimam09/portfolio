@@ -190,6 +190,9 @@ export const portfolio = [
         images: [
             "/images/projects/kist-onb/kist-onb-1.jpeg",
             "/images/projects/kist-onb/kist-onb-2.jpeg",
+            "/images/projects/kist-onb/kist-onb-2.jpeg",
+            "/images/projects/kist-onb/kist-onb-2.jpeg",
+            "/images/projects/kist-onb/kist-onb-1.jpeg",
         ],
     },
     {
@@ -400,5 +403,32 @@ export const blogs = [
         date: "Fab 23, 2022",
         title: "Design conferences in 2022",
         desc: "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
+    },
+];
+
+export const techStacks = [
+    {
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+        title: "JavaScript",
+    },
+    {
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+        title: "TypeScript",
+    },
+    {
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        title: "Java",
+    },
+    {
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+        title: "HTML",
+    },
+    {
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+        title: "CSS",
+    },
+    {
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+        title: "C Lang",
     },
 ];

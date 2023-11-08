@@ -1,15 +1,27 @@
 import { FaPaperPlane } from "react-icons/fa";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Contact = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [text, setText] = useState("");
+    const handleSendMessage = () => {
+        //write the logic to send the contact information
+    };
     return (
         <article className="contact">
             <header>
                 <h2 className="h2 article-title">Contact</h2>
             </header>
+            {/* 
+            <section>
+                <div>Email</div>
+                <div>Whatsapp</div>
+                <div>Call</div>
+            </section> */}
 
             <section className="mapbox">
                 <figure>
@@ -32,6 +44,7 @@ const Contact = () => {
                             name="fullname"
                             className="form-input"
                             placeholder="Full name"
+                            onChange={() => setName(e.target.value)}
                             required
                         />
 
@@ -40,6 +53,7 @@ const Contact = () => {
                             name="email"
                             className="form-input"
                             placeholder="Email address"
+                            onChange={() => setEmail(e.target.value)}
                             required
                         />
                     </div>
@@ -48,10 +62,11 @@ const Contact = () => {
                         name="message"
                         className="form-input"
                         placeholder="Your Message"
+                        onChange={() => setText(e.target.value)}
                         required
                     ></textarea>
 
-                    <button className="form-btn" type="submit" disabled>
+                    <button className="form-btn" onClick={handleSendMessage}>
                         <FaPaperPlane />
                         <span>Send Message</span>
                     </button>

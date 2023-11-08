@@ -149,7 +149,7 @@ const About = () => {
 
             {/* Clients  */}
 
-            <section className="clients">
+            {/* <section className="clients">
                 <h3 className="h3 clients-title">Clients</h3>
 
                 <ul className="clients-list has-scrollbar">
@@ -161,7 +161,7 @@ const About = () => {
                         </li>
                     ))}
                 </ul>
-            </section>
+            </section> */}
         </article>
     );
 };

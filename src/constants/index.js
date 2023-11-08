@@ -1,3 +1,302 @@
+export const portfolio = [
+    {
+        id: 1,
+        name: "KIST ONB",
+        category: "Website",
+        date: "10 Jan, 2023",
+        title: `Introducing Our Fullstack Online Notice Board Web Application`,
+        github: "https://github.com/afzalimam09/kist_onb",
+        live: "https://kistcollege.netlify.app",
+        techstacks: [
+            "Node.js",
+            "React.js",
+            "MongoDB",
+            "JavaScript",
+            "Redux",
+            "JsonWebToken",
+        ],
+
+        firstPara: `Experience seamless communication in educational institutions with our Fullstack Online Notice Board Web Application. Utilizing Node.js, React.js, and MongoDB, it offers secure authentication, instant notice delivery, and personalized teacher-student interaction, revolutionizing traditional notice boards.`,
+
+        lastPara: `In essence, our Fullstack Online Notice Board Web Application redefines communication within educational settings. Its intuitive interface, coupled with powerful features, streamlines the flow of information, fostering a more connected and informed academic community. Experience the future of notice boards today—efficient, eco-friendly, and effortlessly accessible.`,
+
+        features: [
+            {
+                id: "f1",
+                title: "Authentication and User Profile Management",
+                desc: `Our application prioritizes security and individuality. Users can securely log in, ensuring that only authorized personnel have access to the system. Each user can create and manage their unique profile, personalizing their experience.`,
+            },
+            {
+                id: "f2",
+                title: "Instant Notice Delivery",
+                desc: `Say goodbye to missing important announcements! The application automatically sends the latest released notices directly to the user's email address, ensuring that everyone stays informed in real-time.`,
+            },
+            {
+                id: "f3",
+                title: "Teacher-Student Communication",
+                desc: `Facilitating direct communication between teachers and students, our platform enables one-on-one messaging. Teachers can effortlessly chat with individual students, providing personalized guidance and support.`,
+            },
+            {
+                id: "f4",
+                title: "Responsive Admin Dashboard",
+                desc: `Admins have complete control at their fingertips. The responsive admin dashboard empowers administrators to manage notices and users efficiently. From adding new notices to overseeing user accounts, administrators can effortlessly streamline the entire process.`,
+            },
+            {
+                id: "f5",
+                title: "Environmentally Friendly",
+                desc: `By replacing traditional wooden notice boards, our application contributes to environmental sustainability. The reduction in paper usage aligns with eco-conscious practices, making it a win-win for both the institution and the planet.`,
+            },
+        ],
+        images: [
+            "/images/projects/kist-onb/kist-onb-1.jpeg",
+            "/images/projects/kist-onb/kist-onb-2.jpeg",
+            "/images/projects/kist-onb/kist-onb-1.jpeg",
+            "/images/projects/kist-onb/kist-onb-2.jpeg",
+        ],
+    },
+    {
+        id: 2,
+        name: "Coder's Meet",
+        category: "Website",
+        date: "5 Nov, 2023",
+        title: "Introducing Coder's Meet: Your Gateway to Realtime Voice Collaboration",
+        github: "https://github.com/afzalimam09/kist_onb",
+        live: "https://kistcollege.netlify.app",
+        api: "https://kistcollege.netlify.app",
+        techstacks: [
+            "Node.js",
+            "React.js",
+            "MongoDB",
+            "JavaScript",
+            "Socket.io",
+            "WebRTC",
+            "Redux",
+        ],
+        firstPara: `"Coder's Meet" is an innovative and dynamic real-time voice chat application designed for seamless collaboration among developers, leveraging the power of Node.js, React.js, and MongoDB as its core technologies. This platform redefines online communication, allowing users to engage in live voice conversations effortlessly.`,
+
+        lastPara: `"Coder's Meet" is more than just a voice chat application; it's a vibrant community hub where developers can connect, collaborate, and create together. Whether you're seeking instant feedback on your code, engaging in casual conversations, or organizing private discussions, this platform provides the perfect space for developers to come together and share their expertise.`,
+
+        features: [
+            {
+                id: "f1",
+                title: "Realtime Voice Chat",
+                desc: `Experience crystal-clear voice communication in real time, thanks to the integration of WebRTC and Socket.io technologies. Whether you're discussing code, brainstorming ideas, or collaborating on projects, Coder's Meet ensures a lag-free and high-quality audio experience`,
+            },
+            {
+                id: "f2",
+                title: "Flexible Room Options",
+                desc: `Tailor your conversations to your needs. Choose from a variety of room types, including "open," "social," and "private." Users have the freedom to create custom rooms, inviting specific individuals or opening up discussions to a wider audience, fostering a sense of community and collaboration.`,
+            },
+            {
+                id: "f3",
+                title: "Secure Authentication",
+                desc: `Prioritizing security, Coder's Meet implements robust authentication features using JWT and OTP sign-in methods. Users can seamlessly sign up and log in using their mobile numbers or email addresses, ensuring a safe and trustworthy environment for discussions.`,
+            },
+            {
+                id: "f4",
+                title: "User-Friendly Controls",
+                desc: `Coder's Meet provides intuitive controls for users. Participants can easily mute or unmute their microphones, allowing them to actively participate or listen in as per their preference. Additionally, users have the flexibility to leave and rejoin rooms at their convenience, enhancing the overall user experience.`,
+            },
+            {
+                id: "f5",
+                title: "Seamless Reconnection",
+                desc: `Don't worry about interruptions. If a user needs to step away briefly, they can leave the room and reconnect seamlessly when they return. This feature ensures continuous collaboration without any hassle, enabling uninterrupted discussions.`,
+            },
+        ],
+        images: [
+            "/images/projects/project-1.jpg",
+            "/images/projects/project-2.png",
+            "/images/projects/project-3.jpg",
+            "/images/projects/project-4.png",
+            "/images/projects/project-5.png",
+        ],
+    },
+    {
+        id: 3,
+        name: "QuickChat",
+        category: "Website",
+        date: "12 Feb, 2023",
+        title: "Introducing QuickChat: Your Real-Time Messaging Solution",
+        github: "https://github.com/afzalimam09/kist_onb",
+        live: "https://kistcollege.netlify.app",
+        techstacks: [
+            "Node.js",
+            "React.js",
+            "MongoDB",
+            "JavaScript",
+            "Socket.io",
+        ],
+
+        firstPara: `"QuickChat" is a cutting-edge messaging platform built on React.js, Node.js, JavaScript, and MongoDB, designed to provide seamless and real-time communication akin to WhatsApp Web. With a focus on simplicity and efficiency, QuickChat offers an intuitive interface and robust features for users to connect instantly.`,
+
+        lastPara: `"QuickChat" serves as the perfect solution for individuals seeking efficient and secure real-time messaging. Whether you're catching up with friends, collaborating with colleagues, or staying in touch with family, this platform provides a reliable and enjoyable messaging experience, bringing people closer together regardless of the distance.`,
+
+        features: [
+            {
+                id: "f1",
+                title: "Real-Time Messaging",
+                desc: `QuickChat's core feature is real-time messaging. Users can engage in instant conversations with their contacts, enhancing communication efficiency and enabling swift information exchange.`,
+            },
+            {
+                id: "f2",
+                title: "Effortless Authentication",
+                desc: `QuickChat simplifies the signup process. Users can create accounts swiftly with just one click using their email IDs via Google OAuth, ensuring a hassle-free onboarding experience.`,
+            },
+            {
+                id: "f3",
+                title: "Chat List Management",
+                desc: `Users can maintain a personalized chat list, enabling them to send messages to contacts seamlessly. The intuitive interface allows for easy navigation, making it effortless to stay connected with friends, family, and colleagues.`,
+            },
+            {
+                id: "f4",
+                title: "Secure Socket.io Integration",
+                desc: `Real-time chatting functionality is powered by Socket.io, ensuring secure and reliable communication. Messages are delivered instantly, creating a smooth and dynamic chatting experience for users.`,
+            },
+            {
+                id: "f5",
+                title: "User-Friendly Design",
+                desc: `QuickChat boasts an intuitive and user-friendly design, making it accessible to users of all levels of technical expertise. The sleek interface enhances the overall user experience, allowing users to focus on meaningful conversations without distractions.`,
+            },
+        ],
+        images: [
+            "/images/projects/project-5.png",
+            "/images/projects/project-6.png",
+            "/images/projects/project-7.png",
+            "/images/projects/project-8.jpg",
+            "/images/projects/project-9.png",
+        ],
+    },
+    {
+        id: 4,
+        name: "CodeSync",
+        category: "Website",
+        date: "5 Dec, 2022",
+        title: "Introducing CodeSync: Collaborative Real-Time Code Editing",
+        github: "https://github.com/afzalimam09/kist_onb",
+        live: "https://kistcollege.netlify.app",
+        techstacks: [
+            "Node.js",
+            "React.js",
+            "MongoDB",
+            "JavaScript",
+            "Socket.io",
+        ],
+        firstPara: `"CodeSync" is a groundbreaking real-time code editor meticulously crafted with Node.js, React.js, and Socket.io. Breaking barriers in collaborative coding, this platform empowers users to create virtual coding rooms where multiple individuals can simultaneously write, edit, and share code in real time.`,
+        lastPara: `"CodeSync" redefines the collaborative coding experience, allowing developers to work harmoniously, exchange ideas seamlessly, and create exceptional code together. Whether you're engaging in peer programming, conducting coding workshops, or collaborating on open-source projects, CodeSync provides the ideal platform to transform your collaborative coding endeavors into successful outcomes.`,
+        features: [
+            {
+                id: "f1",
+                title: "Virtual Coding Rooms",
+                desc: `CodeSync allows users to create dedicated coding spaces by generating unique room IDs. These IDs can be shared with colleagues, peers, or friends, enabling seamless collaboration regardless of physical location. Users can work together in real time, fostering a sense of unity in coding projects.`,
+            },
+            {
+                id: "f2",
+                title: "Real-Time Code Editing",
+                desc: ` Experience the thrill of synchronized coding. Every keystroke, indentation, or line of code written in the editor is instantaneously updated for all participants in the room. This real-time collaboration feature enhances teamwork, making brainstorming and problem-solving more efficient and engaging.`,
+            },
+            {
+                id: "f3",
+                title: "Interactive User Panel",
+                desc: `Stay connected visually. The platform includes a dynamic panel displaying all participants with their avatars and names. This interactive display not only adds a personal touch but also aids in identifying contributors, facilitating smoother communication among team members.`,
+            },
+            {
+                id: "f4",
+                title: "CodeMirror Integration",
+                desc: `CodeSync leverages the power of CodeMirror, a versatile and robust code editor package. This integration ensures a seamless and feature-rich coding experience, allowing users to write code with confidence and precision`,
+            },
+            {
+                id: "f5",
+                title: "Scalability without Limits",
+                desc: `CodeSync eliminates restrictions on the number of participants. Whether you're collaborating with a small team or conducting a large-scale coding workshop, there's no limit to the number of people who can connect and contribute. This scalability ensures that your collaborative coding efforts can grow as your projects do.`,
+            },
+            {
+                id: "f6",
+                title: "Responsive Dark Theme",
+                desc: `Immerse yourself in a visually stunning and functional environment. CodeSync features a sleek and responsive design, optimized for both mobile and desktop devices. The application's dark color scheme not only enhances readability but also provides an aesthetically pleasing coding atmosphere.`,
+            },
+            {
+                id: "f7",
+                title: "Future Enhancements",
+                desc: `CodeSync doesn't stop at real-time collaboration. Future updates will introduce exciting features, including code execution and the ability to download code files, further enhancing the platform's capabilities and utility.`,
+            },
+        ],
+        images: [
+            "/images/projects/project-1.jpg",
+            "/images/projects/project-2.png",
+            "/images/projects/project-3.jpg",
+            "/images/projects/project-4.png",
+            "/images/projects/project-5.png",
+        ],
+    },
+    {
+        id: 5,
+        name: "SnapGram",
+        category: "Website",
+        date: "10 Nov, 2023",
+        title: "SnapGram: Your Gateway to Seamless Social Connections",
+        github: "https://github.com/afzalimam09/kist_onb",
+        live: "https://kistcollege.netlify.app",
+        techstacks: [
+            "Node.js",
+            "React.js",
+            "MongoDB",
+            "JavaScript",
+            "Appwrite Cloud",
+        ],
+        firstPara: `"SnapGram" stands as a pinnacle of modern social media applications, meticulously crafted using React.js and the powerful Appwrite cloud infrastructure. This full-stack masterpiece redefines social networking, offering a seamless experience akin to a native mobile application. With a sleek and visually captivating dark theme, SnapGram provides users with a platform where connectivity, creativity, and community converge.`,
+        lastPara: `SnapGram transcends the ordinary, offering a space where creativity, connection, and community thrive. Whether you're an avid content creator, a social enthusiast, or simply looking to explore a world of diverse perspectives, SnapGram invites you to join its vibrant community and embark on a journey of endless possibilities.`,
+        features: [
+            {
+                id: "f1",
+                title: "Robust Authentication System",
+                desc: `SnapGram prioritizes user security with a robust authentication system. Seamless login and signup functionality ensures a smooth onboarding experience, allowing users to dive into the vibrant SnapGram community effortlessly.`,
+            },
+            {
+                id: "f2",
+                title: "Personalized Profiles",
+                desc: `Empowering users to express their individuality, SnapGram offers comprehensive profile management. Users can update their name, username, bio, and avatar, curating a personal space that reflects their identity.`,
+            },
+            {
+                id: "f3",
+                title: "Intuitive Posting",
+                desc: `SnapGram's post page features an elegant and user-friendly form, enabling users to publish new content effortlessly. Whether it's sharing captivating photos, insightful thoughts, or creative expressions, the platform provides the perfect canvas for self-expression.`,
+            },
+            {
+                id: "f4",
+                title: "Dynamic Feed",
+                desc: `Dive into a world of inspiration. SnapGram's feed page showcases posts from users whom you follow. Instant likes and real-time updates add an element of excitement, allowing users to engage with content seamlessly.`,
+            },
+            {
+                id: "f5",
+                title: "Social Interactions",
+                desc: `Foster connections by following other creators. SnapGram enables users to engage with the community, building meaningful relationships through mutual interests and shared content. The platform also features a bookmark section, allowing users to save posts and curate their personalized collection.`,
+            },
+            {
+                id: "f6",
+                title: "Activity Notifications",
+                desc: `Stay informed and engaged with SnapGram's activity page. Notifications provide real-time updates on likes, comments, and interactions, ensuring users never miss a moment within their network.`,
+            },
+            {
+                id: "f7",
+                title: "Efficient Search Functionality",
+                desc: `SnapGram's search page empowers users to explore the vast universe of posts and profiles. Whether seeking specific content or connecting with like-minded individuals, the search feature offers a seamless and efficient experience.`,
+            },
+            {
+                id: "f8",
+                title: "Sleek Dark Theme",
+                desc: `Immerse yourself in the visually stunning world of SnapGram. The platform's dark theme not only enhances readability but also creates a captivating atmosphere, providing users with an aesthetically pleasing and immersive social media experience.`,
+            },
+        ],
+        images: [
+            "/images/projects/project-5.png",
+            "/images/projects/project-6.png",
+            "/images/projects/project-7.png",
+            "/images/projects/project-8.jpg",
+            "/images/projects/project-9.png",
+        ],
+    },
+];
+
 export const navLinks = [
     {
         id: 1,
@@ -178,137 +477,6 @@ export const skills = [
     },
 ];
 
-export const portfolio = [
-    {
-        id: 9,
-        title: "KIST ONB",
-        category: "Website",
-        desc: "This is a online notice board application build with Node.js, React.js, JavaScript and MongoDB.",
-        github: "https://github.com/afzalimam09/kist_onb",
-        live: "https://kistcollege.netlify.app",
-        date: "29 Aug, 2000",
-        images: [
-            "/images/projects/kist-onb/kist-onb-1.jpeg",
-            "/images/projects/kist-onb/kist-onb-2.jpeg",
-            "/images/projects/kist-onb/kist-onb-2.jpeg",
-            "/images/projects/kist-onb/kist-onb-2.jpeg",
-            "/images/projects/kist-onb/kist-onb-1.jpeg",
-        ],
-    },
-    {
-        id: 8,
-        title: "KIST ONB",
-        category: "Website",
-        desc: "This is a online notice board application build with Node.js, React.js, JavaScript and MongoDB.",
-        github: "https://github.com/afzalimam09/kist_onb",
-        live: "https://kistcollege.netlify.app",
-        date: "29 Aug, 2000",
-        images: [
-            "/images/projects/project-1.jpg",
-            "/images/projects/project-1.jpg",
-            "/images/projects/project-1.jpg",
-        ],
-    },
-    {
-        id: 7,
-        title: "QuickChat",
-        category: "Website",
-        desc: "Realtime chat application build with Node.js, React.js, MongoDB, Socket.io and Material UI.",
-        github: "https://github.com/afzalimam09/quickchat",
-        live: "https://quickchat.netlify.app",
-        date: "29 Aug, 2000",
-        images: [
-            "/images/projects/project-1.jpg",
-            "/images/projects/project-1.jpg",
-            "/images/projects/project-1.jpg",
-        ],
-    },
-    {
-        id: 6,
-        title: "ImageAI",
-        category: "Website",
-        desc: "This application is build with Node.js, React.js, MongoDB and Tailwind CSS to generate image by AI",
-        github: "https://github.com/afzalimam09/image_ai",
-        live: "https://quickchat.netlify.app",
-        date: "29 Aug, 2003",
-        images: [
-            "/images/projects/project-2.png",
-            "/images/projects/project-2.png",
-            "/images/projects/project-2.png",
-        ],
-    },
-    {
-        id: 5,
-        title: "Password Book",
-        category: "Website",
-        desc: "A web application build with Node.js, React.js, MongoDB and Bootstrap to manage password.",
-        github: "https://github.com/afzalimam09/quickchat",
-        live: "https://quickchat.netlify.app",
-        date: "29 Aug, 2000",
-        images: [
-            "/images/projects/project-3.jpg",
-            "/images/projects/project-3.jpg",
-            "/images/projects/project-3.jpg",
-        ],
-    },
-    {
-        id: 4,
-        title: "Threads",
-        category: "Website",
-        desc: "A fullstack thread clone build with Node.js, React.js, MongoDB, Tailwind CSS and Typescript.",
-        github: "https://github.com/afzalimam09/threads",
-        live: "https://quickchat.netlify.app",
-        date: "29 Aug, 2010",
-        images: [
-            "/images/projects/project-4.png",
-            "/images/projects/project-4.png",
-            "/images/projects/project-4.png",
-        ],
-    },
-    {
-        id: 3,
-        title: "Portfolio",
-        category: "Website",
-        desc: "A web application build with Node.js, React.js, MongoDB and Material UI.",
-        github: "https://github.com/afzalimam09/quickchat",
-        live: "https://quickchat.netlify.app",
-        date: "29 Aug, 2000",
-        images: [
-            "/images/projects/project-5.png",
-            "/images/projects/project-5.png",
-            "/images/projects/project-5.png",
-        ],
-    },
-    {
-        id: 2,
-        title: "Word Sort",
-        category: "App",
-        desc: "A web application build with React Native.",
-        github: "https://github.com/afzalimam09/quickchat",
-        live: "https://quickchat.netlify.app",
-        date: "29 Aug, 2000",
-        images: [
-            "/images/projects/project-6.png",
-            "/images/projects/project-6.png",
-            "/images/projects/project-6.png",
-        ],
-    },
-    {
-        id: 1,
-        title: "Cab Booking API",
-        category: "API",
-        desc: "A RESTful API build with node, express and mongodb.",
-        github: "https://github.com/afzalimam09/quickchat",
-        live: "https://quickchat.netlify.app",
-        date: "29 Aug, 2000",
-        images: [
-            "/images/projects/project-6.png",
-            "/images/projects/project-6.png",
-            "/images/projects/project-6.png",
-        ],
-    },
-];
-
 export const categories = [
     {
         id: 1,
@@ -407,28 +575,9 @@ export const blogs = [
 ];
 
 export const techStacks = [
-    {
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-        title: "JavaScript",
-    },
-    {
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-        title: "TypeScript",
-    },
-    {
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        title: "Java",
-    },
-    {
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
-        title: "HTML",
-    },
-    {
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
-        title: "CSS",
-    },
-    {
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-        title: "C Lang",
-    },
+    "JavaScript",
+    "NodeJs",
+    "ReactJs",
+    "MongoDB",
+    "RESTfull API",
 ];

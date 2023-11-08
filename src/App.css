@@ -2171,9 +2171,18 @@ textarea.form-input::-webkit-resizer {
 }
 
 /* single page css */
+.single header {
+  display: flex;
+  gap: 14px;
+  align-items: start;
+}
 
 .single section {
   margin-bottom: 25px;
+}
+
+.single .testimonials-list {
+  padding: 22px 15px;
 }
 
 .single .desc {
@@ -2183,27 +2192,30 @@ textarea.form-input::-webkit-resizer {
   line-height: 1.6;
 }
 
+.single .desc h4 {
+  margin-bottom: 10px;
+}
+
 .single .desc p {
  margin-bottom: 15px;
 }
 
-.single .techstack-icon-list {
+.single .techstack-list {
   display: flex;
-  gap: 15px;
+  gap: 2px 8px;
   flex-wrap: wrap;
-  margin-top: 15px;
+  margin-top: 14px;
 }
 
-.single .techstack-icon-list .tech-icon {
-  background: var(--white-2);
-  border-radius: 8px;
-}
-
-.single .techstack-icon-list span {
+.single .techstack-list .techstack {
   color: var(--light-gray);
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   margin-top: 8px;
+  background: var(--onyx);
+  padding: 4px 7px;
+  border-radius: 6px;
+  
 }
 
 .single .deployed-links a {

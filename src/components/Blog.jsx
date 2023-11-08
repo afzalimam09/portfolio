@@ -14,7 +14,7 @@ const Blog = () => {
             <section className="blog-posts">
                 <ul className="blog-posts-list">
                     {blogs.map((blog) => (
-                        <li className="blog-post-item">
+                        <li key={blog.id} className="blog-post-item">
                             <a href="#">
                                 <figure className="blog-banner-box">
                                     <img

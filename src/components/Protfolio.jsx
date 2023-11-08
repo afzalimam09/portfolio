@@ -94,10 +94,13 @@ const Portfolio = ({ setActiveProject }) => {
                                     </div>
 
                                     <h3 className="project-title">
-                                        {item.title}
+                                        {item.name}
                                     </h3>
 
-                                    <p className="project-desc">{item.desc}</p>
+                                    <p className="project-desc">
+                                        {item.firstPara.substring(0, 110) +
+                                            " ...."}
+                                    </p>
 
                                     <div className="project-btn-section">
                                         <button
@@ -109,10 +112,13 @@ const Portfolio = ({ setActiveProject }) => {
                                             More
                                         </button>
                                         <div className="link">
-                                            <a href={item.live}>
+                                            <a href={item.live} target="_blank">
                                                 <VscLiveShare />
                                             </a>
-                                            <a href={item.github}>
+                                            <a
+                                                href={item.github}
+                                                target="_blank"
+                                            >
                                                 <BsGithub />
                                             </a>
                                         </div>

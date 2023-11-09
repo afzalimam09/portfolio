@@ -82,7 +82,7 @@ const Contact = () => {
                     </li>
                     <li>
                         <a
-                            href="callto:+916206864101"
+                            href="tel:+916206864101"
                             className="icon-box"
                             target="_blank"
                         >

@@ -15,7 +15,7 @@ const Blog = () => {
                 <ul className="blog-posts-list">
                     {blogs.map((blog) => (
                         <li key={blog.id} className="blog-post-item">
-                            <a href="#">
+                            <a href={blog.url} target="_blank">
                                 <figure className="blog-banner-box">
                                     <img
                                         src={blog.image}
@@ -47,6 +47,13 @@ const Blog = () => {
                         </li>
                     ))}
                 </ul>
+                <a
+                    href="https://myeduwaves.com"
+                    target="_blank"
+                    className="blog-more-btn"
+                >
+                    More Articles
+                </a>
             </section>
         </article>
     );

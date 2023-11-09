@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Sidebar from "./components/shared/Sidebar";
 import Navbar from "./components/shared/Navbar";
 import About from "./components/About";

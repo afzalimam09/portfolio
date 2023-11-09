@@ -297,6 +297,63 @@ export const portfolio = [
     },
 ];
 
+export const blogs = [
+    {
+        id: 6,
+        category: "Design",
+        image: "/images/blog/blog-6.jpg",
+        url: "http://blog.com",
+        date: "Fab 23, 2022",
+        title: "Design digest #79",
+        desc: "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.",
+    },
+    {
+        id: 5,
+        category: "Design",
+        image: "/images/blog/blog-5.jpg",
+        url: "http://blog.com",
+        date: "Fab 23, 2022",
+        title: "The forgotten art of spacing",
+        desc: "Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: 4,
+        category: "Design",
+        image: "/images/blog/blog-4.jpg",
+        url: "http://blog.com",
+        date: "Fab 23, 2022",
+        title: "Design digest #80",
+        desc: "Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.",
+    },
+    {
+        id: 3,
+        category: "Design",
+        image: "/images/blog/blog-3.jpg",
+        url: "http://blog.com",
+        date: "Fab 23, 2022",
+        title: "UI interactions of the week",
+        desc: "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
+    },
+    {
+        id: 2,
+        category: "Design",
+        image: "/images/blog/blog-2.jpg",
+        url: "http://blog.com",
+        date: "Fab 23, 2022",
+        title: "Best fonts every designer",
+        desc: "Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.",
+    },
+    {
+        id: 1,
+        category: "Design",
+        image: "/images/blog/blog-1.jpg",
+        url: "http://blog.com",
+        date: "Fab 23, 2022",
+        title: "Design conferences in 2022",
+        desc: "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
+    },
+];
+
 export const navLinks = [
     {
         id: 1,
@@ -521,63 +578,4 @@ export const serviceList = [
         image: "/images/icons/icon-photo.svg",
         desc: "Solving DSA questions regularly across different platforms",
     },
-];
-
-export const blogs = [
-    {
-        id: 6,
-        category: "Design",
-        image: "/images/blog/blog-6.jpg",
-        date: "Fab 23, 2022",
-        title: "Design digest #79",
-        desc: "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.",
-    },
-    {
-        id: 5,
-        category: "Design",
-        image: "/images/blog/blog-5.jpg",
-        date: "Fab 23, 2022",
-        title: "The forgotten art of spacing",
-        desc: "Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-        id: 4,
-        category: "Design",
-        image: "/images/blog/blog-4.jpg",
-        date: "Fab 23, 2022",
-        title: "Design digest #80",
-        desc: "Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.",
-    },
-    {
-        id: 3,
-        category: "Design",
-        image: "/images/blog/blog-3.jpg",
-        date: "Fab 23, 2022",
-        title: "UI interactions of the week",
-        desc: "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
-    },
-    {
-        id: 2,
-        category: "Design",
-        image: "/images/blog/blog-2.jpg",
-        date: "Fab 23, 2022",
-        title: "Best fonts every designer",
-        desc: "Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.",
-    },
-    {
-        id: 1,
-        category: "Design",
-        image: "/images/blog/blog-1.jpg",
-        date: "Fab 23, 2022",
-        title: "Design conferences in 2022",
-        desc: "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
-    },
-];
-
-export const techStacks = [
-    "JavaScript",
-    "NodeJs",
-    "ReactJs",
-    "MongoDB",
-    "RESTfull API",
 ];

@@ -1,5 +1,4 @@
 import { BiArrowBack } from "react-icons/bi";
-import { techStacks } from "../constants";
 import { useEffect } from "react";
 
 const SingleProject = ({ activeProject, setActiveProject }) => {

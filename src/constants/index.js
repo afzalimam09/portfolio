@@ -48,10 +48,13 @@ export const portfolio = [
             },
         ],
         images: [
-            "/images/projects/kist-onb/kist-onb-1.jpeg",
-            "/images/projects/kist-onb/kist-onb-2.jpeg",
-            "/images/projects/kist-onb/kist-onb-1.jpeg",
-            "/images/projects/kist-onb/kist-onb-2.jpeg",
+            "/images/projects/kist-onb/kist-onb-1.jpg",
+            "/images/projects/kist-onb/kist-onb-2.jpg",
+            "/images/projects/kist-onb/kist-onb-3.jpg",
+            "/images/projects/kist-onb/kist-onb-4.jpg",
+            "/images/projects/kist-onb/kist-onb-5.jpg",
+            "/images/projects/kist-onb/kist-onb-6.jpg",
+            "/images/projects/kist-onb/kist-onb-7.jpg",
         ],
     },
     {

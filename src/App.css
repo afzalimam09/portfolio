@@ -2259,3 +2259,8 @@ textarea.form-input::-webkit-resizer {
 .single .deployed-links a:first-child {
   margin-top: 15px;
 }
+
+.loading-text {
+  color: var(--white-1);
+  text-align: center;
+}

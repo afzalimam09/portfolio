@@ -1,14 +1,14 @@
-import { useState, useEffect } from "react";
-import { MdClose } from "react-icons/md";
-import { clients, serviceList, testimonials } from "../constants";
+import { useEffect } from "react";
+// import { MdClose } from "react-icons/md";
+import { serviceList } from "../constants";
 
 const About = () => {
-    const [modal, setModal] = useState(testimonials[0]);
-    const [active, setActive] = useState(false);
-    const handleModal = (data) => {
-        setActive(true);
-        setModal(data);
-    };
+    // const [modal, setModal] = useState(testimonials[0]);
+    // const [active, setActive] = useState(false);
+    // const handleModal = (data) => {
+    //     setActive(true);
+    //     setModal(data);
+    // };
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -76,7 +76,7 @@ const About = () => {
 
             {/* testimonials */}
 
-            <section className="testimonials">
+            {/* <section className="testimonials">
                 <h3 className="h3 testimonials-title">Testimonials</h3>
 
                 <ul className="testimonials-list has-scrollbar">
@@ -106,11 +106,11 @@ const About = () => {
                         </li>
                     ))}
                 </ul>
-            </section>
+            </section> */}
 
             {/* - testimonials modal */}
 
-            <div className={`modal-container ${active ? "active" : ""}`}>
+            {/* <div className={`modal-container ${active ? "active" : ""}`}>
                 <div className={`overlay ${active ? "active" : ""}`}></div>
 
                 <section className="testimonials-modal">
@@ -145,7 +145,7 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-            </div>
+            </div> */}
 
             {/* Clients  */}
 

@@ -29,7 +29,7 @@ const Sidebar = () => {
                         Afzal Imam
                     </h1>
 
-                    <p className="title">Software developer</p>
+                    <p className="title">FullStack developer</p>
                 </div>
 
                 <button onClick={handleActive} className="info_more-btn">

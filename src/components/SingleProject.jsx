@@ -1,48 +1,55 @@
 import { BiArrowBack } from "react-icons/bi";
 import { useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { portfolio } from "../constants";
 
-const SingleProject = ({ activeProject, setActiveProject }) => {
+const SingleProject = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+    const projectId = pathname.split("/")[2].split("-")[0];
+    const project = portfolio[projectId - 1];
+
     return (
         <article className="single">
             <header>
                 <button
-                    onClick={() => setActiveProject(null)}
+                    onClick={() => navigate(-1)}
                     className="h2 article-title"
                 >
                     <BiArrowBack />
                 </button>
-                <h3 className="h3">{activeProject.name}</h3>
+                <h3 className="h3">{project.name}</h3>
             </header>
             <section>
-                <h3 className="h3">{activeProject.title}</h3>
+                <h3 className="h3">{project.title}</h3>
                 <ul className="testimonials-list has-scrollbar">
-                    {activeProject.images.map((item, index) => (
+                    {project.images.map((item, index) => (
                         <li key={index} className="testimonials-item">
                             <figure className="project-img">
-                                <img src={item} alt={activeProject.title} />
+                                <img src={item} alt={project.title} />
                             </figure>
                         </li>
                     ))}
                 </ul>
             </section>
             <section className="desc">
-                <p>{activeProject.firstPara}</p>
+                <p>{project.firstPara}</p>
                 <h4 className="h4">Key Features</h4>
-                {activeProject.features.map((item) => (
+                {project.features.map((item) => (
                     <p key={item.id}>
                         <b>{item.title}:</b> {item.desc}
                     </p>
                 ))}
-                <p>{activeProject.lastPara}</p>
+                <p>{project.lastPara}</p>
                 {/* <p>{`This project was completed on ${activeProject.date}`}</p> */}
             </section>
             <section>
                 <h4 className="h4">Tech Stacks</h4>
                 <div className="techstack-list">
-                    {activeProject.techstacks.map((item, index) => (
+                    {project.techstacks.map((item, index) => (
                         <p className="techstack" key={index}>
                             {item}
                         </p>
@@ -52,18 +59,18 @@ const SingleProject = ({ activeProject, setActiveProject }) => {
             <section>
                 <h4 className="h4">Deployed Links</h4>
                 <div className="deployed-links">
-                    {activeProject.github && (
-                        <a href={activeProject.github} target="_blank">
+                    {project.github && (
+                        <a href={project.github} target="_blank">
                             Github
                         </a>
                     )}
-                    {activeProject.live && (
-                        <a href={activeProject.live} target="_blank">
+                    {project.live && (
+                        <a href={project.live} target="_blank">
                             Live Demo
                         </a>
                     )}
-                    {activeProject.api && (
-                        <a href={activeProject.api} target="_blank">
+                    {project.api && (
+                        <a href={project.api} target="_blank">
                             API Documentation
                         </a>
                     )}

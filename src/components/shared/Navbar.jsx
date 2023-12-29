@@ -1,25 +1,26 @@
+import { Link, useLocation } from "react-router-dom";
 import { navLinks } from "../../constants";
 
-const Navbar = ({ setComponent, component, setActiveProject }) => {
-    const handleNavClick = (title) => {
-        setActiveProject((prev) => {
-            if (!prev) setActiveProject(null);
-        });
-        setComponent(title);
-    };
+const Navbar = () => {
+    const { pathname } = useLocation();
+    const component = pathname.split("/")[1] || "about";
+    console.log(component);
+
     return (
         <nav className="navbar">
             <ul className="navbar-list">
-                {navLinks.map(({ id, title }) => (
+                {navLinks.map(({ id, title, link }) => (
                     <li key={id} className="navbar-item">
-                        <button
-                            onClick={() => handleNavClick(title)}
+                        <Link
                             className={`navbar-link ${
-                                component === title ? "active" : ""
+                                component === title.toLowerCase()
+                                    ? "active"
+                                    : ""
                             }`}
+                            to={link}
                         >
                             {title}
-                        </button>
+                        </Link>
                     </li>
                 ))}
             </ul>

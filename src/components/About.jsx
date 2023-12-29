@@ -22,9 +22,9 @@ const About = () => {
 
             <section className="about-text">
                 <p>
-                    I'm Full Stack Web Developer from Bhubaneshwar, India,
-                    completed B-Tech in Computer Science from KIST College,
-                    Bhubaneshwar Odisha in 2023.
+                    I'm Full Stack Web Developer from Motihari, India, completed
+                    B-Tech in Computer Science from KIST College, Bhubaneshwar,
+                    Odisha in 2023.
                 </p>
 
                 <p>

@@ -2,6 +2,7 @@ export const portfolio = [
     {
         id: 1,
         name: "KIST ONB",
+        slug: "1-kist-onb",
         category: "Website",
         date: "10 Jan, 2023",
         title: `Introducing Our Fullstack Online Notice Board Web Application`,
@@ -60,6 +61,7 @@ export const portfolio = [
     {
         id: 2,
         name: "Coder's Meet",
+        slug: "2-coders-meet",
         category: "Website",
         date: "5 Nov, 2023",
         title: "Coder's Meet: Your Gateway to Realtime Voice Collaboration",
@@ -119,6 +121,7 @@ export const portfolio = [
     {
         id: 3,
         name: "QuickChat",
+        slug: "3-quick-chat",
         category: "Website",
         date: "12 Feb, 2023",
         title: "Introducing QuickChat: Your Real-Time Messaging Solution",
@@ -175,6 +178,7 @@ export const portfolio = [
     {
         id: 4,
         name: "CodeSync",
+        slug: "4-code-sync",
         category: "Website",
         date: "5 Dec, 2022",
         title: "Introducing CodeSync: Collaborative Real-Time Code Editing",
@@ -237,6 +241,7 @@ export const portfolio = [
     {
         id: 5,
         name: "SnapGram",
+        slug: "5-snap-gram",
         category: "Website",
         date: "10 Nov, 2023",
         title: "SnapGram: Your Gateway to Seamless Social Connections",
@@ -364,22 +369,27 @@ export const navLinks = [
     {
         id: 1,
         title: "About",
+        link: "/",
     },
     {
         id: 2,
         title: "Resume",
+        link: "/resume",
     },
     {
         id: 3,
         title: "Portfolio",
+        link: "/portfolio",
     },
     {
         id: 4,
         title: "Blog",
+        link: "/blog",
     },
     {
         id: 5,
         title: "Contact",
+        link: "/contact",
     },
 ];
 

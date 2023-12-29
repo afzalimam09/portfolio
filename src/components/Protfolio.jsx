@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { BsGithub, BsChevronDown } from "react-icons/bs";
 import { VscLiveShare } from "react-icons/vsc";
 import { categories, portfolio } from "../constants";
+import { Link } from "react-router-dom";
 
-const Portfolio = ({ setActiveProject }) => {
+const Portfolio = () => {
     const [active, setActive] = useState(false);
     const [category, setCategory] = useState("All");
     const [projects, setProjects] = useState(portfolio);
@@ -103,14 +104,12 @@ const Portfolio = ({ setActiveProject }) => {
                                     </p>
 
                                     <div className="project-btn-section">
-                                        <button
-                                            onClick={() =>
-                                                setActiveProject(item)
-                                            }
+                                        <Link
+                                            to={`/project/${item.slug}`}
                                             className="view-btn"
                                         >
                                             More
-                                        </button>
+                                        </Link>
                                         <div className="link">
                                             <a href={item.live} target="_blank">
                                                 <VscLiveShare />

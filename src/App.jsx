@@ -8,38 +8,35 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import "./App.css";
 import SingleProject from "./components/SingleProject";
-
-const tabs = {
-    About: About,
-    Resume: Resume,
-    Portfolio: Portfolio,
-    Blog: Blog,
-    Contact: Contact,
-};
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
-    const [component, setComponent] = useState("About");
-    const ActiveComponent = tabs[component];
-    const [activeProject, setActiveProject] = useState(null);
-
     return (
         <main>
             <Sidebar />
             <div className="main-content">
-                <Navbar
-                    setComponent={setComponent}
-                    component={component}
-                    setActiveProject={setActiveProject}
-                />
+                <Navbar />
 
-                {!activeProject ? (
+                {/* {!activeProject ? (
                     <ActiveComponent setActiveProject={setActiveProject} />
                 ) : (
                     <SingleProject
                         activeProject={activeProject}
                         setActiveProject={setActiveProject}
                     />
-                )}
+                )} */}
+
+                <Routes>
+                    <Route path="/" element={<About />} />
+                    <Route path="/resume" element={<Resume />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route
+                        path="/project/:projectSlug"
+                        element={<SingleProject />}
+                    />
+                </Routes>
             </div>
         </main>
     );

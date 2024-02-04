@@ -19,6 +19,69 @@ const Resume = () => {
                         <HiOutlineBookOpen />
                     </div>
 
+                    <h3 className="h3">Experience</h3>
+                </div>
+
+                <ol className="timeline-list">
+                    <li className="timeline-item">
+                        <h5 className="h5 timeline-text">NazraSoft</h5>
+                        <h4 className="h4 timeline-item-title">
+                            NodeJS Backend Developer (Intern)
+                        </h4>
+
+                        <span>08/2023 - 01/2024</span>
+
+                        <p className="timeline-text">
+                            ○ Collaborated on backend development and
+                            optimization using Node.js and Express.js <br />
+                            ○ Designed and implemented efficient data
+                            storage/retrieval strategies with MongoDB.
+                            <br />○ Contributed to enhancing API
+                            functionalities, ensuring seamless integration with
+                            frontend components while following RESTful
+                            principles.
+                        </p>
+                    </li>
+                    <li className="timeline-item">
+                        <h5 className="h5 timeline-text">Internshala</h5>
+                        <h4 className="h4 timeline-item-title">
+                            Internshala Student Parter
+                        </h4>
+
+                        <span>10/2021 - 12/2021</span>
+
+                        <p className="timeline-text">
+                            ○ Hosted activities like workshops and seminars{" "}
+                            <br />
+                            ○ Established a good relationship with students and
+                            faculty <br />○ Promoted Internshala brands,
+                            products, and services on campus
+                        </p>
+                    </li>
+
+                    <li className="timeline-item">
+                        <h5 className="h5 timeline-text">Chegg India</h5>
+                        <h4 className="h4 timeline-item-title">
+                            Chegg Computer Science Expert
+                        </h4>
+
+                        <span>02/2022 - 08/2022</span>
+
+                        <p className="timeline-text">
+                            ○ Worked as a computer science expert on Chegg
+                            <br />○ Assisted students with computer science
+                            questions
+                        </p>
+                    </li>
+                </ol>
+            </section>
+
+            <section className="timeline">
+                <div className="title-wrapper">
+                    <div className="icon-box">
+                        <HiOutlineBookOpen />
+                    </div>
+
                     <h3 className="h3">Education</h3>
                 </div>
 
@@ -54,50 +117,6 @@ const Resume = () => {
                         <span>2017</span>
 
                         <p className="timeline-text">Grade - 80%</p>
-                    </li>
-                </ol>
-            </section>
-
-            <section className="timeline">
-                <div className="title-wrapper">
-                    <div className="icon-box">
-                        <HiOutlineBookOpen />
-                    </div>
-
-                    <h3 className="h3">Experience</h3>
-                </div>
-
-                <ol className="timeline-list">
-                    <li className="timeline-item">
-                        <h5 className="h5 timeline-text">Internshala</h5>
-                        <h4 className="h4 timeline-item-title">
-                            Internshala Student Parter
-                        </h4>
-
-                        <span>10/2021 - 12/2021</span>
-
-                        <p className="timeline-text">
-                            ○ Hosted activities like workshops and seminars{" "}
-                            <br />
-                            ○ Established a good relationship with students and
-                            faculty <br />○ Promoted Internshala brands,
-                            products, and services on campus
-                        </p>
-                    </li>
-
-                    <li className="timeline-item">
-                        <h5 className="h5 timeline-text">Chegg India</h5>
-                        <h4 className="h4 timeline-item-title">
-                            Chegg Computer Science Expert
-                        </h4>
-
-                        <span>02/2022 - 08/2022</span>
-
-                        <p className="timeline-text">
-                            ○ Worked as a computer science expert on Chegg
-                            <br />○ Assisted students with computer science
-                            questions
-                        </p>
                     </li>
                 </ol>
             </section>

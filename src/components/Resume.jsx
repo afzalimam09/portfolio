@@ -24,6 +24,27 @@ const Resume = () => {
 
                 <ol className="timeline-list">
                     <li className="timeline-item">
+                        <h5 className="h5 timeline-text">
+                            IstakaPaza Pvt. Ltd.
+                        </h5>
+                        <h4 className="h4 timeline-item-title">
+                            Full Stack Developer (Full Time)
+                        </h4>
+
+                        <span>05/2024 - Present</span>
+
+                        {/* <p className="timeline-text">
+                            ○ Collaborated on backend development and
+                            optimization using Node.js and Express.js <br />
+                            ○ Designed and implemented efficient data
+                            storage/retrieval strategies with MongoDB.
+                            <br />○ Contributed to enhancing API
+                            functionalities, ensuring seamless integration with
+                            frontend components while following RESTful
+                            principles.
+                        </p> */}
+                    </li>
+                    <li className="timeline-item">
                         <h5 className="h5 timeline-text">NazraSoft</h5>
                         <h4 className="h4 timeline-item-title">
                             NodeJS Backend Developer (Intern)

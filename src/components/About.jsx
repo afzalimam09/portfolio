@@ -22,20 +22,20 @@ const About = () => {
 
             <section className="about-text">
                 <p>
-                    I'm Full Stack Web Developer from Motihari, India, completed
-                    B-Tech in Computer Science from KIST College, Bhubaneshwar,
-                    Odisha in 2023.
+                    I'm Full Stack Web Developer from Bengaluru, Karnatka,
+                    India, completed B-Tech in Computer Science from KIST
+                    College, Bhubaneshwar, Odisha in 2023.
                 </p>
 
                 <p>
-                    Although I am a fresher, I have completed several courses
-                    and projects related to web development, including building
-                    a RESTful API. I am skilled in Node.js, MongoDB, and MySQL,
-                    and have experience with frontend technologies such as
-                    React, Redux, and Next.js. Through these experiences, I have
-                    developed a strong foundation in programming languages such
-                    as JavaScript, Java, HTML, and CSS, as well as experience in
-                    creating scalable and maintainable code.
+                    I have completed several courses and projects related to web
+                    development, including building a RESTful API. I am skilled
+                    in Node.js, MongoDB, and MySQL, and have experience with
+                    frontend technologies such as React, Redux, and Next.js.
+                    Through these experiences, I have developed a strong
+                    foundation in programming languages such as JavaScript,
+                    Java, HTML, and CSS, as well as experience in creating
+                    scalable and maintainable code.
                 </p>
                 <p>
                     In addition to my technical skills, I possess excellent

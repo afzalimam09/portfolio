@@ -99,7 +99,7 @@ const Portfolio = () => {
                                     </h3>
 
                                     <p className="project-desc">
-                                        {item.firstPara.substring(0, 110) +
+                                        {item.firstPara.substring(0, 90) +
                                             " ...."}
                                     </p>
 
@@ -111,15 +111,22 @@ const Portfolio = () => {
                                             More
                                         </Link>
                                         <div className="link">
-                                            <a href={item.live} target="_blank">
-                                                <VscLiveShare />
-                                            </a>
-                                            <a
-                                                href={item.github}
-                                                target="_blank"
-                                            >
-                                                <BsGithub />
-                                            </a>
+                                            {item.live && (
+                                                <Link
+                                                    to={item.live}
+                                                    target="_blank"
+                                                >
+                                                    <VscLiveShare />
+                                                </Link>
+                                            )}
+                                            {item.github && (
+                                                <Link
+                                                    to={item.github}
+                                                    target="_blank"
+                                                >
+                                                    <BsGithub />
+                                                </Link>
+                                            )}
                                         </div>
                                     </div>
                                 </div>

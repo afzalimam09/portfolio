@@ -84,7 +84,7 @@ const Sidebar = () => {
                         <div className="contact-info">
                             <p className="contact-title">Location</p>
 
-                            <address>Motihari, Bihar, India</address>
+                            <address>Bengaluru, Karnatka, India</address>
                         </div>
                     </li>
                 </ul>
@@ -110,14 +110,14 @@ const Sidebar = () => {
                         </a>
                     </li>
 
-                    <li className="social-item">
+                    {/* <li className="social-item">
                         <a
                             href="https://twitter.com/afzalimam09"
                             className="social-link"
                         >
                             <BsTwitter />
                         </a>
-                    </li>
+                    </li> */}
                     <li className="social-item">
                         <a
                             href="https://leetcode.com/afzalimam09"

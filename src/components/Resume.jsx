@@ -25,27 +25,28 @@ const Resume = () => {
                 <ol className="timeline-list">
                     <li className="timeline-item">
                         <h5 className="h5 timeline-text">
-                            IstakaPaza Pvt. Ltd.
+                            IstakaPaza Pvt. Ltd. (Bengaluru, India)
                         </h5>
                         <h4 className="h4 timeline-item-title">
-                            Full Stack Developer (Full Time)
+                            Full Stack Developer
                         </h4>
 
                         <span>05/2024 - Present</span>
 
-                        {/* <p className="timeline-text">
-                            ○ Collaborated on backend development and
-                            optimization using Node.js and Express.js <br />
-                            ○ Designed and implemented efficient data
-                            storage/retrieval strategies with MongoDB.
-                            <br />○ Contributed to enhancing API
-                            functionalities, ensuring seamless integration with
-                            frontend components while following RESTful
-                            principles.
-                        </p> */}
+                        <p className="timeline-text">
+                            ○ Integrated WhatsApp Cloud API and SendGrid for
+                            real-time notifications and automated emails. <br />
+                            ○ Contributed to developing and implementing the
+                            onboarding referral incentive program.
+                            <br />○ Developed an API for updating user email and
+                            mobile numbers with OTP verification.
+                            <br />○ Made significant contributions to backend
+                            and frontend development, enhancing application
+                            performance and user experience.
+                        </p>
                     </li>
                     <li className="timeline-item">
-                        <h5 className="h5 timeline-text">NazraSoft</h5>
+                        <h5 className="h5 timeline-text">NazraSoft (Remote)</h5>
                         <h4 className="h4 timeline-item-title">
                             NodeJS Backend Developer (Intern)
                         </h4>
